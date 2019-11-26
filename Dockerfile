@@ -1,5 +1,5 @@
-FROM golang:1.12
-ENV LIBRDKAFKA_VERSION "v1.1.0"
+FROM golang:1.13
+ENV LIBRDKAFKA_VERSION "v1.2.2"
 # setup librdkafka
 
 RUN apt-get update &&\
